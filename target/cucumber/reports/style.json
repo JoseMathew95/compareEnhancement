@@ -1,0 +1,1122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Service has no data to return for the requested Models.",
+        "description": "",
+        "id": "gives-appropriate-error-messages-for-request-failures;service-has-no-data-to-return-for-the-requested-models.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115863432,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Mathew has a list of vehicles to be Compared:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "IUT2018DS6L62B",
+                  "2TB"
+                ]
+              },
+              {
+                "cells": [
+                  "CUD201811WDEL75A",
+                  "245"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 620308,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "has a stateCode for the Comparison",
+            "match": {
+              "location": "model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stateCode"
+                ]
+              },
+              {
+                "cells": [
+                  "LA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7047953250,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user makes a post request to the Configuration-Service",
+            "match": {
+              "location": "model_failure_steps.the_user_makes_a_post_request_with_three_valid_CCODES_Llp_s()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288028426,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Should get a 500 response with the Error Message.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 13
+                }
+              ],
+              "location": "model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "User makes a Put Request against the service.",
+        "description": "",
+        "id": "gives-appropriate-error-messages-for-request-failures;user-makes-a-put-request-against-the-service.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2143590,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Mathew has a list of vehicles to be Compared:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "IUT201813DS6L62B",
+                  "2TB"
+                ]
+              },
+              {
+                "cells": [
+                  "CUD201811WDEL75A",
+                  "2TA"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 331898,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "has a stateCode for the Comparison",
+            "match": {
+              "location": "model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stateCode"
+                ]
+              },
+              {
+                "cells": [
+                  "LA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567207207,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user makes a PUT request to the Configuration-Service",
+            "match": {
+              "location": "model_failure_steps.theUserMakesAPUTRequestToTheConfigurationService()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2819283,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Should get a 501 response with the Error Message.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 13
+                }
+              ],
+              "location": "model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "User makes a GET Request against the service.",
+        "description": "",
+        "id": "gives-appropriate-error-messages-for-request-failures;user-makes-a-get-request-against-the-service.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1975386,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Mathew has a list of vehicles to be Compared:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "IUT201813DS6L62B",
+                  "2TB"
+                ]
+              },
+              {
+                "cells": [
+                  "CUD201811WDEL75A",
+                  "2TA"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 358564,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "has a stateCode for the Comparison",
+            "match": {
+              "location": "model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stateCode"
+                ]
+              },
+              {
+                "cells": [
+                  "LA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297956635,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "The user makes a GET request to the Configuration-Service",
+            "match": {
+              "location": "model_failure_steps.theUserMakesAGETRequestToTheConfigurationService()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2509129,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Should get a 400 response with the Error Message.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 13
+                }
+              ],
+              "location": "model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "User makes a Patch Request against the service.",
+        "description": "",
+        "id": "gives-appropriate-error-messages-for-request-failures;user-makes-a-patch-request-against-the-service.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1798155,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Mathew has a list of vehicles to be Compared:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "IUT201813DS6L62B",
+                  "2TB"
+                ]
+              },
+              {
+                "cells": [
+                  "CUD201811WDEL75A",
+                  "2TA"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263795,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "has a stateCode for the Comparison",
+            "match": {
+              "location": "model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stateCode"
+                ]
+              },
+              {
+                "cells": [
+                  "LA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164647452,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "The user makes a PATCH request to the Configuration-Service",
+            "match": {
+              "location": "model_failure_steps.theUserMakesAPATCHRequestToTheConfigurationService()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2838155,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Should get a 501 response with the Error Message.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 13
+                }
+              ],
+              "location": "model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 50,
+        "name": "Missing stateCode in the request body.",
+        "description": "",
+        "id": "gives-appropriate-error-messages-for-request-failures;missing-statecode-in-the-request-body.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1727180,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Mathew has a list of vehicles to be Compared:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "IUT201813DS6L62B",
+                  "2TB"
+                ]
+              },
+              {
+                "cells": [
+                  "CUD201811WDEL75A",
+                  "2TA"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175369508,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "The user makes a post request to the Configuration-Service",
+            "match": {
+              "location": "model_failure_steps.the_user_makes_a_post_request_with_three_valid_CCODES_Llp_s()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2429129,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Should get a 400 response with the Error Message.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 13
+                }
+              ],
+              "location": "model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 58,
+        "name": "Missing Ccode in the request body.",
+        "description": "",
+        "id": "gives-appropriate-error-messages-for-request-failures;missing-ccode-in-the-request-body.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1604923,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Mathew has a list of vehicles to be Compared:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "",
+                  "2TB"
+                ]
+              },
+              {
+                "cells": [
+                  "CUD201811WDEL75A",
+                  "2TA"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159180,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "has a stateCode for the Comparison",
+            "match": {
+              "location": "model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stateCode"
+                ]
+              },
+              {
+                "cells": [
+                  "LA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198436594,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "The user makes a post request to the Configuration-Service",
+            "match": {
+              "location": "model_failure_steps.the_user_makes_a_post_request_with_three_valid_CCODES_Llp_s()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2438154,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Should get a 400 response with the Error Message.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 13
+                }
+              ],
+              "location": "model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 69,
+        "name": "Missing Llp in the request body.",
+        "description": "",
+        "id": "gives-appropriate-error-messages-for-request-failures;missing-llp-in-the-request-body.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1872821,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Mathew has a list of vehicles to be Compared:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "IUT201813DS6L62B",
+                  "2TB"
+                ]
+              },
+              {
+                "cells": [
+                  "CUD201811WDEL75A",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 308103,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "has a stateCode for the Comparison",
+            "match": {
+              "location": "model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stateCode"
+                ]
+              },
+              {
+                "cells": [
+                  "LA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196629824,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "The user makes a post request to the Configuration-Service",
+            "match": {
+              "location": "model_failure_steps.the_user_makes_a_post_request_with_three_valid_CCODES_Llp_s()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2323693,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Should get a 400 response with the Error Message.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 13
+                }
+              ],
+              "location": "model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gives Appropriate error messages for Request Failures",
+    "description": "  The Service will provide enough Messages and indication of the Failure of the Request to the User.",
+    "id": "gives-appropriate-error-messages-for-request-failures",
+    "keyword": "Feature",
+    "uri": "features/Configuration_Compare/Model_Compare/Request_Failures.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category.",
+        "description": "",
+        "id": "validate-response-returned-from-successful-model-compare-request.;user-compares-the-options-received-from-configuration-compare-against-the-options-generated-from-catalog-options-and-equipment-category.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2164104,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Mathew has a list of models to be Compared",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "successful_response_Steps.mathewHasAListOfModelsToBeCompared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "CUJ202008KLJP74A",
+                  "2TG"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244923,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "He has a stateCode for the Request",
+            "match": {
+              "location": "successful_response_Steps.hasAStateCodeForTheRequest(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stateCode"
+                ]
+              },
+              {
+                "cells": [
+                  "LA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2535809041,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "He Makes a post request to configuration-Compare service with the Models and Ccode",
+            "match": {
+              "location": "successful_response_Steps.theUserMakesAPostRequestToTheConfigurationCompareService()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30230576,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "He should receive a successful response",
+            "match": {
+              "location": "successful_response_Steps.heShouldReceiveASuccessfulResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 624971744,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The response has options that matches the Generated Options.",
+            "match": {
+              "location": "successful_response_Steps.theResponseShouldContainACompleteListOfOptions()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "User compares the Options received from Configuration-Compare against the Configure service response.",
+        "description": "",
+        "id": "validate-response-returned-from-successful-model-compare-request.;user-compares-the-options-received-from-configuration-compare-against-the-configure-service-response.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1504001,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Mathew has a list of models to be Compared",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "successful_response_Steps.mathewHasAListOfModelsToBeCompared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "CUJ202008KLJP74A",
+                  "2TG"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201026,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "He has a stateCode for the Request",
+            "match": {
+              "location": "successful_response_Steps.hasAStateCodeForTheRequest(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stateCode"
+                ]
+              },
+              {
+                "cells": [
+                  "LA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1271888932,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "He Makes a post request to configuration-Compare service with the Models and Ccode",
+            "match": {
+              "location": "successful_response_Steps.theUserMakesAPostRequestToTheConfigurationCompareService()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5529028,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "He should receive a successful response",
+            "match": {
+              "location": "successful_response_Steps.heShouldReceiveASuccessfulResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 298249558,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The response has options that matches the Configure Options.",
+            "match": {
+              "location": "successful_response_Steps.theValuesForFlagsMatchesTheValuesReturnedByConfigureService()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "User validates that the VCM-Options section is returned and the DisplayGroup values.",
+        "description": "",
+        "id": "validate-response-returned-from-successful-model-compare-request.;user-validates-that-the-vcm-options-section-is-returned-and-the-displaygroup-values.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1703385,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Mathew has a list of models to be Compared",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "successful_response_Steps.mathewHasAListOfModelsToBeCompared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "CUT201917DP4L93C",
+                  "2TH"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253949,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "He has a stateCode for the Request",
+            "match": {
+              "location": "successful_response_Steps.hasAStateCodeForTheRequest(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stateCode"
+                ]
+              },
+              {
+                "cells": [
+                  "LA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1477127170,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "He Makes a post request to configuration-Compare service with the Models and Ccode",
+            "match": {
+              "location": "successful_response_Steps.theUserMakesAPostRequestToTheConfigurationCompareService()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19598367,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "He should receive a successful response",
+            "match": {
+              "location": "successful_response_Steps.heShouldReceiveASuccessfulResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3783387,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The sections has DisplayGroup node and a new VCM-Option Section.",
+            "match": {
+              "location": "successful_response_Steps.theSectionsHasDisplayGroupNodeAndANewVCMOptionSection()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "User validates that the right Views data is returned under Equipment-categories",
+        "description": "",
+        "id": "validate-response-returned-from-successful-model-compare-request.;user-validates-that-the-right-views-data-is-returned-under-equipment-categories",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1522872,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Mathew has a list of models to be Compared",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mathew",
+                  "offset": 0
+                }
+              ],
+              "location": "successful_response_Steps.mathewHasAListOfModelsToBeCompared(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code",
+                  "llpCode"
+                ]
+              },
+              {
+                "cells": [
+                  "CUT201917DP4L93C",
+                  "2TH"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 605949,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "He has a stateCode for the Request",
+            "match": {
+              "location": "successful_response_Steps.hasAStateCodeForTheRequest(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stateCode"
+                ]
+              },
+              {
+                "cells": [
+                  "LA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1505892310,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "He Makes a post request to configuration-Compare service with the Models and Ccode",
+            "match": {
+              "location": "successful_response_Steps.theUserMakesAPostRequestToTheConfigurationCompareService()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8136208,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "He should receive a successful response",
+            "match": {
+              "location": "successful_response_Steps.heShouldReceiveASuccessfulResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 234969533,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The Equipment-categories node has the correct Views data for the Model",
+            "match": {
+              "location": "successful_response_Steps.theEquipmentCategoriesNodeHasTheCorrectViewsDataForTheModel()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate response returned from successful Model Compare Request.",
+    "description": "  User submits a post request to the Configuration-compare service with x number of ccode\u0027s \u0026 Llp\u0027s.\n  The system verifies validates the request body and retrieves the Compare data for all models in the Request.\n  The User then verifies that response is Success, Validates the json Schema of the Response and\n  then verifies the data returned in the Response.",
+    "id": "validate-response-returned-from-successful-model-compare-request.",
+    "keyword": "Feature",
+    "uri": "features/Configuration_Compare/Model_Compare/validate_Response_of_success_requests.feature",
+    "tags": []
+  }
+]

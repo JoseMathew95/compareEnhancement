@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.autodatacorp.fcaus.CompareAcceptenceTests" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="JMATHEWLT" time="0.0">
+  <properties/>
+  <system-out><![CDATA[14:00:16.313 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+
+14:00:16.327 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f125962e
+14:00:16.333 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Gives Appropriate error messages for Request Failures
+14:00:16.369 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@e65d2b52
+14:00:16.370 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Validate response returned from successful Model Compare Request.
+14:00:24.423 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Service has no data to return for the requested Models.
+----------------------------------------------------------------------------
+14:00:25.005 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User makes a Put Request against the service.
+----------------------------------------------------------------------------
+14:00:25.318 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User makes a GET Request against the service.
+----------------------------------------------------------------------------
+14:00:25.494 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User makes a Patch Request against the service.
+----------------------------------------------------------------------------
+14:00:25.680 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Missing stateCode in the request body.
+----------------------------------------------------------------------------
+14:00:25.887 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Missing Ccode in the request body.
+----------------------------------------------------------------------------
+14:00:26.094 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Missing Llp in the request body.
+----------------------------------------------------------------------------
+14:00:29.293 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category.
+----------------------------------------------------------------------------
+14:00:30.883 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User compares the Options received from Configuration-Compare against the Configure service response.
+----------------------------------------------------------------------------
+14:00:32.393 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User validates that the VCM-Options section is returned and the DisplayGroup values.
+----------------------------------------------------------------------------
+14:00:34.151 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User validates that the right Views data is returned under Equipment-categories
+----------------------------------------------------------------------------
+Feature: Gives Appropriate error messages for Request Failures
+  The Service will provide enough Messages and indication of the Failure of the Request to the User.
+
+  Scenario: Service has no data to return for the requested Models. ?[90m# features/Configuration_Compare/Model_Compare/Request_Failures.feature:6?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of vehicles to be Compared:?[0m             ?[90m# model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)?[0m
+    ?[32mAnd ?[0m?[32mhas a stateCode for the Comparison?[0m                          ?[90m# model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)?[0m
+    ?[32mWhen ?[0m?[32mThe user makes a post request to the Configuration-Service?[0m ?[90m# model_failure_steps.the_user_makes_a_post_request_with_three_valid_CCODES_Llp_s()?[0m
+    ?[32mThen ?[0m?[32mShould get a ?[0m?[32m?[1m500?[0m?[32m response with the Error Message.?[0m          ?[90m# model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)?[0m
+
+  Scenario: User makes a Put Request against the service.          ?[90m# features/Configuration_Compare/Model_Compare/Request_Failures.feature:17?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of vehicles to be Compared:?[0m            ?[90m# model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)?[0m
+    ?[32mAnd ?[0m?[32mhas a stateCode for the Comparison?[0m                         ?[90m# model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)?[0m
+    ?[32mWhen ?[0m?[32mThe user makes a PUT request to the Configuration-Service?[0m ?[90m# model_failure_steps.theUserMakesAPUTRequestToTheConfigurationService()?[0m
+    ?[32mThen ?[0m?[32mShould get a ?[0m?[32m?[1m501?[0m?[32m response with the Error Message.?[0m         ?[90m# model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)?[0m
+
+  Scenario: User makes a GET Request against the service.          ?[90m# features/Configuration_Compare/Model_Compare/Request_Failures.feature:28?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of vehicles to be Compared:?[0m            ?[90m# model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)?[0m
+    ?[32mAnd ?[0m?[32mhas a stateCode for the Comparison?[0m                         ?[90m# model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)?[0m
+    ?[32mWhen ?[0m?[32mThe user makes a GET request to the Configuration-Service?[0m ?[90m# model_failure_steps.theUserMakesAGETRequestToTheConfigurationService()?[0m
+    ?[32mThen ?[0m?[32mShould get a ?[0m?[32m?[1m400?[0m?[32m response with the Error Message.?[0m         ?[90m# model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)?[0m
+
+  Scenario: User makes a Patch Request against the service.          ?[90m# features/Configuration_Compare/Model_Compare/Request_Failures.feature:39?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of vehicles to be Compared:?[0m              ?[90m# model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)?[0m
+    ?[32mAnd ?[0m?[32mhas a stateCode for the Comparison?[0m                           ?[90m# model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)?[0m
+    ?[32mWhen ?[0m?[32mThe user makes a PATCH request to the Configuration-Service?[0m ?[90m# model_failure_steps.theUserMakesAPATCHRequestToTheConfigurationService()?[0m
+    ?[32mThen ?[0m?[32mShould get a ?[0m?[32m?[1m501?[0m?[32m response with the Error Message.?[0m           ?[90m# model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)?[0m
+
+  Scenario: Missing stateCode in the request body.                  ?[90m# features/Configuration_Compare/Model_Compare/Request_Failures.feature:50?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of vehicles to be Compared:?[0m             ?[90m# model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)?[0m
+    ?[32mWhen ?[0m?[32mThe user makes a post request to the Configuration-Service?[0m ?[90m# model_failure_steps.the_user_makes_a_post_request_with_three_valid_CCODES_Llp_s()?[0m
+    ?[32mThen ?[0m?[32mShould get a ?[0m?[32m?[1m400?[0m?[32m response with the Error Message.?[0m          ?[90m# model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)?[0m
+
+  Scenario: Missing Ccode in the request body.                      ?[90m# features/Configuration_Compare/Model_Compare/Request_Failures.feature:58?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of vehicles to be Compared:?[0m             ?[90m# model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)?[0m
+    ?[32mAnd ?[0m?[32mhas a stateCode for the Comparison?[0m                          ?[90m# model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)?[0m
+    ?[32mWhen ?[0m?[32mThe user makes a post request to the Configuration-Service?[0m ?[90m# model_failure_steps.the_user_makes_a_post_request_with_three_valid_CCODES_Llp_s()?[0m
+    ?[32mThen ?[0m?[32mShould get a ?[0m?[32m?[1m400?[0m?[32m response with the Error Message.?[0m          ?[90m# model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)?[0m
+
+  Scenario: Missing Llp in the request body.                        ?[90m# features/Configuration_Compare/Model_Compare/Request_Failures.feature:69?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of vehicles to be Compared:?[0m             ?[90m# model_failure_steps.mathew_has_a_list_of_vehicles_to_be_Compared(String,DataTable)?[0m
+    ?[32mAnd ?[0m?[32mhas a stateCode for the Comparison?[0m                          ?[90m# model_failure_steps.has_a_stateCode_for_the_Comparison(DataTable)?[0m
+    ?[32mWhen ?[0m?[32mThe user makes a post request to the Configuration-Service?[0m ?[90m# model_failure_steps.the_user_makes_a_post_request_with_three_valid_CCODES_Llp_s()?[0m
+    ?[32mThen ?[0m?[32mShould get a ?[0m?[32m?[1m400?[0m?[32m response with the Error Message.?[0m          ?[90m# model_failure_steps.shouldGetAResponseWithTheErrorMessage(int)?[0m
+
+Feature: Validate response returned from successful Model Compare Request.
+  User submits a post request to the Configuration-compare service with x number of ccode's & Llp's.
+  The system verifies validates the request body and retrieves the Compare data for all models in the Request.
+  The User then verifies that response is Success, Validates the json Schema of the Response and
+  then verifies the data returned in the Response.
+
+  Scenario: User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category. ?[90m# features/Configuration_Compare/Model_Compare/validate_Response_of_success_requests.feature:8?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of models to be Compared?[0m                                                                                                 ?[90m# successful_response_Steps.mathewHasAListOfModelsToBeCompared(String,DataTable)?[0m
+    ?[32mAnd ?[0m?[32mHe has a stateCode for the Request?[0m                                                                                                           ?[90m# successful_response_Steps.hasAStateCodeForTheRequest(DataTable)?[0m
+    ?[32mWhen ?[0m?[32mHe Makes a post request to configuration-Compare service with the Models and Ccode?[0m                                                          ?[90m# successful_response_Steps.theUserMakesAPostRequestToTheConfigurationCompareService()?[0m
+    ?[32mThen ?[0m?[32mHe should receive a successful response?[0m                                                                                                     ?[90m# successful_response_Steps.heShouldReceiveASuccessfulResponse()?[0m
+    ?[32mAnd ?[0m?[32mThe response has options that matches the Generated Options.?[0m                                                                                 ?[90m# successful_response_Steps.theResponseShouldContainACompleteListOfOptions()?[0m
+
+  Scenario: User compares the Options received from Configuration-Compare against the Configure service response. ?[90m# features/Configuration_Compare/Model_Compare/validate_Response_of_success_requests.feature:19?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of models to be Compared?[0m                                                              ?[90m# successful_response_Steps.mathewHasAListOfModelsToBeCompared(String,DataTable)?[0m
+    ?[32mAnd ?[0m?[32mHe has a stateCode for the Request?[0m                                                                        ?[90m# successful_response_Steps.hasAStateCodeForTheRequest(DataTable)?[0m
+    ?[32mWhen ?[0m?[32mHe Makes a post request to configuration-Compare service with the Models and Ccode?[0m                       ?[90m# successful_response_Steps.theUserMakesAPostRequestToTheConfigurationCompareService()?[0m
+    ?[32mThen ?[0m?[32mHe should receive a successful response?[0m                                                                  ?[90m# successful_response_Steps.heShouldReceiveASuccessfulResponse()?[0m
+    ?[32mAnd ?[0m?[32mThe response has options that matches the Configure Options.?[0m                                              ?[90m# successful_response_Steps.theValuesForFlagsMatchesTheValuesReturnedByConfigureService()?[0m
+
+  Scenario: User validates that the VCM-Options section is returned and the DisplayGroup values. ?[90m# features/Configuration_Compare/Model_Compare/validate_Response_of_success_requests.feature:30?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of models to be Compared?[0m                                             ?[90m# successful_response_Steps.mathewHasAListOfModelsToBeCompared(String,DataTable)?[0m
+    ?[32mAnd ?[0m?[32mHe has a stateCode for the Request?[0m                                                       ?[90m# successful_response_Steps.hasAStateCodeForTheRequest(DataTable)?[0m
+    ?[32mWhen ?[0m?[32mHe Makes a post request to configuration-Compare service with the Models and Ccode?[0m      ?[90m# successful_response_Steps.theUserMakesAPostRequestToTheConfigurationCompareService()?[0m
+    ?[32mThen ?[0m?[32mHe should receive a successful response?[0m                                                 ?[90m# successful_response_Steps.heShouldReceiveASuccessfulResponse()?[0m
+    ?[32mAnd ?[0m?[32mThe sections has DisplayGroup node and a new VCM-Option Section.?[0m                         ?[90m# successful_response_Steps.theSectionsHasDisplayGroupNodeAndANewVCMOptionSection()?[0m
+
+  Scenario: User validates that the right Views data is returned under Equipment-categories ?[90m# features/Configuration_Compare/Model_Compare/validate_Response_of_success_requests.feature:41?[0m
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mMathew?[0m?[32m has a list of models to be Compared?[0m                                        ?[90m# successful_response_Steps.mathewHasAListOfModelsToBeCompared(String,DataTable)?[0m
+    ?[32mAnd ?[0m?[32mHe has a stateCode for the Request?[0m                                                  ?[90m# successful_response_Steps.hasAStateCodeForTheRequest(DataTable)?[0m
+    ?[32mWhen ?[0m?[32mHe Makes a post request to configuration-Compare service with the Models and Ccode?[0m ?[90m# successful_response_Steps.theUserMakesAPostRequestToTheConfigurationCompareService()?[0m
+    ?[32mThen ?[0m?[32mHe should receive a successful response?[0m                                            ?[90m# successful_response_Steps.heShouldReceiveASuccessfulResponse()?[0m
+    ?[32mAnd ?[0m?[32mThe Equipment-categories node has the correct Views data for the Model?[0m              ?[90m# successful_response_Steps.theEquipmentCategoriesNodeHasTheCorrectViewsDataForTheModel()?[0m
+
+11 Scenarios (?[32m11 passed?[0m)
+47 Steps (?[32m47 passed?[0m)
+0m18.180s
+
+14:00:34.223 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+14:00:34.371 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+14:00:34.393 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 11 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62
+14:00:34.395 [Test worker] DEBUG net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+14:00:34.399 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Service has no data to return for the requested Models.
+14:00:34.399 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Gives Appropriate error messages for Request Failures:Service has no data to return for the requested Models.
+14:00:34.399 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a Put Request against the service.
+14:00:34.399 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Gives Appropriate error messages for Request Failures:User makes a Put Request against the service.
+14:00:34.400 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a GET Request against the service.
+14:00:34.400 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Gives Appropriate error messages for Request Failures:User makes a GET Request against the service.
+14:00:34.400 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a Patch Request against the service.
+14:00:34.401 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Gives Appropriate error messages for Request Failures:User makes a Patch Request against the service.
+14:00:34.418 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Service has no data to return for the requested Models. to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\db447bc1db584bbc379bd76b3eaa4c9c18ae56c388d797ff580b5d0dd38f4309.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\db447bc1db584bbc379bd76b3eaa4c9c18ae56c388d797ff580b5d0dd38f4309.jsone94e84b2-d8d4-44ca-a780-90a1bbcb5b34)
+14:00:34.419 [pool-1-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User makes a Put Request against the service. to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\1e2b63b5728cacb64e3b0cf49503f17860ec52ada07c4cf25873a10f982b75b5.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\1e2b63b5728cacb64e3b0cf49503f17860ec52ada07c4cf25873a10f982b75b5.json8c6eac19-3a03-4d7e-aaae-3e021db5767d)
+14:00:34.423 [pool-1-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User makes a Patch Request against the service. to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\3d8f62ebe7c987625752e11314e8cfab28bb046f73bc39d4abaea94e91a73411.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\3d8f62ebe7c987625752e11314e8cfab28bb046f73bc39d4abaea94e91a73411.json024a1d61-e908-4fd3-8ea1-e684a29ff39d)
+14:00:34.424 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User makes a GET Request against the service. to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\5663a31947fd60c67135dd6555a332eda999fa2d563fd6ebc6be0f7a978f23d8.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\5663a31947fd60c67135dd6555a332eda999fa2d563fd6ebc6be0f7a978f23d8.json4cb873fa-ef08-4374-a19b-05312ce65def)
+14:00:34.732 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a GET Request against the service. done
+14:00:34.732 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing stateCode in the request body.
+14:00:34.732 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Gives Appropriate error messages for Request Failures:Missing stateCode in the request body.
+14:00:34.733 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Missing stateCode in the request body. to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\0cfec73407dfcc39155fcddcc0ef11c79405d2e8085dc96bc2c1ccb1e839096e.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\0cfec73407dfcc39155fcddcc0ef11c79405d2e8085dc96bc2c1ccb1e839096e.json9df12892-21b3-421a-9a75-6bbcbb66285a)
+14:00:34.750 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing stateCode in the request body. done
+14:00:34.750 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing Ccode in the request body.
+14:00:34.750 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Gives Appropriate error messages for Request Failures:Missing Ccode in the request body.
+14:00:34.751 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Missing Ccode in the request body. to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\9ad0b6d530d8d088826f5bf9d6eaab77909b77149070153cf8d56d7fe2ec8d04.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\9ad0b6d530d8d088826f5bf9d6eaab77909b77149070153cf8d56d7fe2ec8d04.json2379c2a4-f51d-4fe2-b0d9-d6d667f321dc)
+14:00:34.825 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Service has no data to return for the requested Models. done
+14:00:34.826 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing Llp in the request body.
+14:00:34.826 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Gives Appropriate error messages for Request Failures:Missing Llp in the request body.
+14:00:34.839 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Missing Llp in the request body. to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\28e89ebea141d89c2eb90e36c599521430a66f762d085b2844bedcba3f9a4cc7.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\28e89ebea141d89c2eb90e36c599521430a66f762d085b2844bedcba3f9a4cc7.json004a19e6-6417-4f5d-a1e5-72b259ccb716)
+14:00:34.862 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing Ccode in the request body. done
+14:00:34.862 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category.
+14:00:34.862 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category.
+14:00:34.863 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category. to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\55696a4bc83c29b8b3ec72e56a9ec3625183839f9247716e1e44c7bd339e22a8.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\55696a4bc83c29b8b3ec72e56a9ec3625183839f9247716e1e44c7bd339e22a8.json52b4d9fb-30e7-4794-9c3a-c01fccd1e809)
+14:00:34.897 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a Patch Request against the service. done
+14:00:34.897 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Configure service response.
+14:00:34.897 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Configure service response.
+14:00:34.898 [pool-1-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User compares the Options received from Configuration-Compare against the Configure service response. to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\4465ac0245712a2d2e45078d02a8f378c611758cafbf4373ad923758c4f9f073.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\4465ac0245712a2d2e45078d02a8f378c611758cafbf4373ad923758c4f9f073.json018414fa-f7c3-4d38-9ef2-20acf9e04a69)
+14:00:34.928 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category. done
+14:00:34.928 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User validates that the VCM-Options section is returned and the DisplayGroup values.
+14:00:34.928 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Validate response returned from successful Model Compare Request.:User validates that the VCM-Options section is returned and the DisplayGroup values.
+14:00:34.929 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User validates that the VCM-Options section is returned and the DisplayGroup values. to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\c9d3a4435b83540ecdb4e2bf05df4ff61f887854cf09a864338734e7fe6267db.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\c9d3a4435b83540ecdb4e2bf05df4ff61f887854cf09a864338734e7fe6267db.json3940bcc3-e97f-4e7b-8d92-c7d84bde0238)
+14:00:34.958 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing Llp in the request body. done
+14:00:34.959 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User validates that the right Views data is returned under Equipment-categories
+14:00:34.959 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7f441a62: Generating report for test outcome: Validate response returned from successful Model Compare Request.:User validates that the right Views data is returned under Equipment-categories
+14:00:34.960 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User validates that the right Views data is returned under Equipment-categories to file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\9b4ac7ec4d5633e14db55573d84193a9507c130214e2c3139244651645f1b0af.json (using temp file C:\Users\Jose.Mathew\OneDrive - Autodata Solutions, Inc\Documents\Work\bdd\Compare\target\site\serenity\9b4ac7ec4d5633e14db55573d84193a9507c130214e2c3139244651645f1b0af.json9070415d-8d0e-416d-bde2-583b3fd4f6d8)
+14:00:35.034 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Configure service response. done
+14:00:35.042 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a Put Request against the service. done
+14:00:35.047 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User validates that the VCM-Options section is returned and the DisplayGroup values. done
+14:00:35.053 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User validates that the right Views data is returned under Equipment-categories done
+14:00:35.053 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+14:00:35.054 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 661 ms
+14:00:35.054 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 11 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39
+14:00:35.055 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a Put Request against the service.
+14:00:35.055 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Gives Appropriate error messages for Request Failures:User makes a Put Request against the service.
+14:00:35.055 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Service has no data to return for the requested Models.
+14:00:35.055 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Gives Appropriate error messages for Request Failures:Service has no data to return for the requested Models.
+14:00:35.055 [Test worker] DEBUG net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+14:00:35.055 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR User makes a Put Request against the service. in 1e2b63b5728cacb64e3b0cf49503f17860ec52ada07c4cf25873a10f982b75b5
+14:00:35.056 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Service has no data to return for the requested Models. in db447bc1db584bbc379bd76b3eaa4c9c18ae56c388d797ff580b5d0dd38f4309
+14:00:35.057 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a Patch Request against the service.
+14:00:35.057 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Gives Appropriate error messages for Request Failures:User makes a Patch Request against the service.
+14:00:35.058 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR User makes a Patch Request against the service. in 3d8f62ebe7c987625752e11314e8cfab28bb046f73bc39d4abaea94e91a73411
+14:00:35.057 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a GET Request against the service.
+14:00:35.058 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Gives Appropriate error messages for Request Failures:User makes a GET Request against the service.
+14:00:35.058 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR User makes a GET Request against the service. in 5663a31947fd60c67135dd6555a332eda999fa2d563fd6ebc6be0f7a978f23d8
+14:00:35.253 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Configuration compare', type='theme' parent = 'null', cardNumber='null'}]
+14:00:35.263 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Configuration compare', type='theme' parent = 'null', cardNumber='null'}]
+14:00:35.275 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Configuration compare', type='theme' parent = 'null', cardNumber='null'}]
+14:00:35.284 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User makes a GET Request against the service.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:35.284 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User makes a Put Request against the service.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:35.287 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User makes a Put Request against the service.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:35.287 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User makes a GET Request against the service.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:35.292 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Service has no data to return for the requested Models.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:35.293 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Service has no data to return for the requested Models.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:35.298 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Gives Appropriate error messages for Request Failures:Service has no data to return for the requested Models. in db447bc1db584bbc379bd76b3eaa4c9c18ae56c388d797ff580b5d0dd38f4309.html in directory target\site\serenity  
+14:00:35.304 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Gives Appropriate error messages for Request Failures:User makes a Put Request against the service. in 1e2b63b5728cacb64e3b0cf49503f17860ec52ada07c4cf25873a10f982b75b5.html in directory target\site\serenity  
+14:00:35.305 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Gives Appropriate error messages for Request Failures:User makes a GET Request against the service. in 5663a31947fd60c67135dd6555a332eda999fa2d563fd6ebc6be0f7a978f23d8.html in directory target\site\serenity  
+14:00:35.311 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 1e2b63b5728cacb64e3b0cf49503f17860ec52ada07c4cf25873a10f982b75b5.html
+14:00:35.311 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 5663a31947fd60c67135dd6555a332eda999fa2d563fd6ebc6be0f7a978f23d8.html
+14:00:35.327 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Configuration compare', type='theme' parent = 'null', cardNumber='null'}]
+14:00:35.330 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User makes a Patch Request against the service.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:35.331 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User makes a Patch Request against the service.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:35.333 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Gives Appropriate error messages for Request Failures:User makes a Patch Request against the service. in 3d8f62ebe7c987625752e11314e8cfab28bb046f73bc39d4abaea94e91a73411.html in directory target\site\serenity  
+14:00:35.334 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 3d8f62ebe7c987625752e11314e8cfab28bb046f73bc39d4abaea94e91a73411.html
+14:00:35.685 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53137<->67.231.211.131:443 closed
+14:00:36.431 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 5663a31947fd60c67135dd6555a332eda999fa2d563fd6ebc6be0f7a978f23d8.html in 1120 ms
+14:00:36.431 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a GET Request against the service. done
+14:00:36.431 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing stateCode in the request body.
+14:00:36.431 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Gives Appropriate error messages for Request Failures:Missing stateCode in the request body.
+14:00:36.431 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Missing stateCode in the request body. in 0cfec73407dfcc39155fcddcc0ef11c79405d2e8085dc96bc2c1ccb1e839096e
+14:00:36.438 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Missing stateCode in the request body.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.438 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Missing stateCode in the request body.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.438 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Gives Appropriate error messages for Request Failures:Missing stateCode in the request body. in 0cfec73407dfcc39155fcddcc0ef11c79405d2e8085dc96bc2c1ccb1e839096e.html in directory target\site\serenity  
+14:00:36.438 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 0cfec73407dfcc39155fcddcc0ef11c79405d2e8085dc96bc2c1ccb1e839096e.html
+14:00:36.478 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 1e2b63b5728cacb64e3b0cf49503f17860ec52ada07c4cf25873a10f982b75b5.html in 1167 ms
+14:00:36.478 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a Put Request against the service. done
+14:00:36.478 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing Ccode in the request body.
+14:00:36.478 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Gives Appropriate error messages for Request Failures:Missing Ccode in the request body.
+14:00:36.478 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Missing Ccode in the request body. in 9ad0b6d530d8d088826f5bf9d6eaab77909b77149070153cf8d56d7fe2ec8d04
+14:00:36.478 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Missing Ccode in the request body.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.478 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Missing Ccode in the request body.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.478 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Gives Appropriate error messages for Request Failures:Missing Ccode in the request body. in 9ad0b6d530d8d088826f5bf9d6eaab77909b77149070153cf8d56d7fe2ec8d04.html in directory target\site\serenity  
+14:00:36.478 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 9ad0b6d530d8d088826f5bf9d6eaab77909b77149070153cf8d56d7fe2ec8d04.html
+14:00:36.506 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 3d8f62ebe7c987625752e11314e8cfab28bb046f73bc39d4abaea94e91a73411.html in 1172 ms
+14:00:36.506 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:User makes a Patch Request against the service. done
+14:00:36.506 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing Llp in the request body.
+14:00:36.506 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Gives Appropriate error messages for Request Failures:Missing Llp in the request body.
+14:00:36.507 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Missing Llp in the request body. in 28e89ebea141d89c2eb90e36c599521430a66f762d085b2844bedcba3f9a4cc7
+14:00:36.508 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Missing Llp in the request body.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.511 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Missing Llp in the request body.-[]: Optional[Requirement{name='Gives Appropriate error messages for Request Failures', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.515 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Gives Appropriate error messages for Request Failures:Missing Llp in the request body. in 28e89ebea141d89c2eb90e36c599521430a66f762d085b2844bedcba3f9a4cc7.html in directory target\site\serenity  
+14:00:36.526 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 28e89ebea141d89c2eb90e36c599521430a66f762d085b2844bedcba3f9a4cc7.html
+14:00:36.577 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 0cfec73407dfcc39155fcddcc0ef11c79405d2e8085dc96bc2c1ccb1e839096e.html in 139 ms
+14:00:36.577 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing stateCode in the request body. done
+14:00:36.577 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category.
+14:00:36.577 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category.
+14:00:36.577 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category. in 55696a4bc83c29b8b3ec72e56a9ec3625183839f9247716e1e44c7bd339e22a8
+14:00:36.579 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category.-[]: Optional[Requirement{name='Validate response returned from successful Model Compare Request.', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.579 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category.-[]: Optional[Requirement{name='Validate response returned from successful Model Compare Request.', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.579 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category. in 55696a4bc83c29b8b3ec72e56a9ec3625183839f9247716e1e44c7bd339e22a8.html in directory target\site\serenity  
+14:00:36.579 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 55696a4bc83c29b8b3ec72e56a9ec3625183839f9247716e1e44c7bd339e22a8.html
+14:00:36.589 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 28e89ebea141d89c2eb90e36c599521430a66f762d085b2844bedcba3f9a4cc7.html in 63 ms
+14:00:36.589 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing Llp in the request body. done
+14:00:36.589 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Configure service response.
+14:00:36.589 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Configure service response.
+14:00:36.589 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR User compares the Options received from Configuration-Compare against the Configure service response. in 4465ac0245712a2d2e45078d02a8f378c611758cafbf4373ad923758c4f9f073
+14:00:36.619 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User compares the Options received from Configuration-Compare against the Configure service response.-[]: Optional[Requirement{name='Validate response returned from successful Model Compare Request.', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.619 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User compares the Options received from Configuration-Compare against the Configure service response.-[]: Optional[Requirement{name='Validate response returned from successful Model Compare Request.', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.619 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Configure service response. in 4465ac0245712a2d2e45078d02a8f378c611758cafbf4373ad923758c4f9f073.html in directory target\site\serenity  
+14:00:36.619 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 4465ac0245712a2d2e45078d02a8f378c611758cafbf4373ad923758c4f9f073.html
+14:00:36.769 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 9ad0b6d530d8d088826f5bf9d6eaab77909b77149070153cf8d56d7fe2ec8d04.html in 291 ms
+14:00:36.769 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Missing Ccode in the request body. done
+14:00:36.769 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User validates that the VCM-Options section is returned and the DisplayGroup values.
+14:00:36.769 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Validate response returned from successful Model Compare Request.:User validates that the VCM-Options section is returned and the DisplayGroup values.
+14:00:36.769 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR User validates that the VCM-Options section is returned and the DisplayGroup values. in c9d3a4435b83540ecdb4e2bf05df4ff61f887854cf09a864338734e7fe6267db
+14:00:36.771 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User validates that the VCM-Options section is returned and the DisplayGroup values.-[]: Optional[Requirement{name='Validate response returned from successful Model Compare Request.', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.771 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User validates that the VCM-Options section is returned and the DisplayGroup values.-[]: Optional[Requirement{name='Validate response returned from successful Model Compare Request.', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.771 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Validate response returned from successful Model Compare Request.:User validates that the VCM-Options section is returned and the DisplayGroup values. in c9d3a4435b83540ecdb4e2bf05df4ff61f887854cf09a864338734e7fe6267db.html in directory target\site\serenity  
+14:00:36.771 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in c9d3a4435b83540ecdb4e2bf05df4ff61f887854cf09a864338734e7fe6267db.html
+14:00:36.817 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 4465ac0245712a2d2e45078d02a8f378c611758cafbf4373ad923758c4f9f073.html in 198 ms
+14:00:36.817 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Configure service response. done
+14:00:36.817 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User validates that the right Views data is returned under Equipment-categories
+14:00:36.817 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2081cd39: Generating report for test outcome: Validate response returned from successful Model Compare Request.:User validates that the right Views data is returned under Equipment-categories
+14:00:36.817 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR User validates that the right Views data is returned under Equipment-categories in 9b4ac7ec4d5633e14db55573d84193a9507c130214e2c3139244651645f1b0af
+14:00:36.819 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User validates that the right Views data is returned under Equipment-categories-[]: Optional[Requirement{name='Validate response returned from successful Model Compare Request.', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.819 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome User validates that the right Views data is returned under Equipment-categories-[]: Optional[Requirement{name='Validate response returned from successful Model Compare Request.', type='feature' parent = 'Model compare', cardNumber='null'}]
+14:00:36.820 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Validate response returned from successful Model Compare Request.:User validates that the right Views data is returned under Equipment-categories in 9b4ac7ec4d5633e14db55573d84193a9507c130214e2c3139244651645f1b0af.html in directory target\site\serenity  
+14:00:36.821 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 9b4ac7ec4d5633e14db55573d84193a9507c130214e2c3139244651645f1b0af.html
+14:00:36.915 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 55696a4bc83c29b8b3ec72e56a9ec3625183839f9247716e1e44c7bd339e22a8.html in 336 ms
+14:00:36.915 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category. done
+14:00:36.957 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report c9d3a4435b83540ecdb4e2bf05df4ff61f887854cf09a864338734e7fe6267db.html in 186 ms
+14:00:36.957 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User validates that the VCM-Options section is returned and the DisplayGroup values. done
+14:00:36.985 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 9b4ac7ec4d5633e14db55573d84193a9507c130214e2c3139244651645f1b0af.html in 164 ms
+14:00:36.985 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Validate response returned from successful Model Compare Request.:User validates that the right Views data is returned under Equipment-categories done
+14:00:39.050 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in db447bc1db584bbc379bd76b3eaa4c9c18ae56c388d797ff580b5d0dd38f4309.html
+14:00:39.105 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report db447bc1db584bbc379bd76b3eaa4c9c18ae56c388d797ff580b5d0dd38f4309.html in 55 ms
+14:00:39.105 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Gives Appropriate error messages for Request Failures:Service has no data to return for the requested Models. done
+14:00:39.106 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+14:00:39.106 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 4052 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

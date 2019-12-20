@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Gives Appropriate error messages for Request Failures","Service has no data to return for the requested Models.","SUCCESS","2019-12-20T14:00:16.68-05:00[America/New_York]","0.0","7.74"
+"Gives Appropriate error messages for Request Failures","User makes a Put Request against the service.","SUCCESS","2019-12-20T14:00:24.428-05:00[America/New_York]","0.0","0.58"
+"Gives Appropriate error messages for Request Failures","User makes a GET Request against the service.","SUCCESS","2019-12-20T14:00:25.008-05:00[America/New_York]","0.0","0.31"
+"Gives Appropriate error messages for Request Failures","User makes a Patch Request against the service.","SUCCESS","2019-12-20T14:00:25.321-05:00[America/New_York]","0.0","0.17"
+"Gives Appropriate error messages for Request Failures","Missing stateCode in the request body.","SUCCESS","2019-12-20T14:00:25.496-05:00[America/New_York]","0.0","0.18"
+"Gives Appropriate error messages for Request Failures","Missing Ccode in the request body.","SUCCESS","2019-12-20T14:00:25.682-05:00[America/New_York]","0.0","0.2"
+"Gives Appropriate error messages for Request Failures","Missing Llp in the request body.","SUCCESS","2019-12-20T14:00:25.889-05:00[America/New_York]","0.0","0.2"

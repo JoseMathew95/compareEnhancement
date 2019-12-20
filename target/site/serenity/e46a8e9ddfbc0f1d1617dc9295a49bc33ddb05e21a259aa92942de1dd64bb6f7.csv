@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validate response returned from successful Model Compare Request.","User compares the Options received from Configuration-Compare against the Options generated from Catalog-Options and Equipment Category.","SUCCESS","2019-12-20T14:00:26.096-05:00[America/New_York]","0.0","3.2"
+"Validate response returned from successful Model Compare Request.","User compares the Options received from Configuration-Compare against the Configure service response.","SUCCESS","2019-12-20T14:00:29.301-05:00[America/New_York]","0.0","1.58"
+"Validate response returned from successful Model Compare Request.","User validates that the VCM-Options section is returned and the DisplayGroup values.","SUCCESS","2019-12-20T14:00:30.885-05:00[America/New_York]","0.0","1.51"
+"Validate response returned from successful Model Compare Request.","User validates that the right Views data is returned under Equipment-categories","SUCCESS","2019-12-20T14:00:32.395-05:00[America/New_York]","0.0","1.76"

@@ -1,0 +1,49 @@
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.48")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+ext {
+    slf4jVersion = '1.7.7'
+    serenityCoreVersion = '2.0.48'
+    serenityCucumber4Version = '1.0.18'
+    junitVersion = '4.12'
+    assertJVersion = '3.8.0'
+    logbackVersion = '1.2.3'
+    cucumberCoreVersion = '4.2.0'
+}
+
+dependencies {
+    compile "ch.qos.logback:logback-classic:${logbackVersion}"
+    compile group: 'io.rest-assured', name: 'json-schema-validator', version: '3.0.0'
+    compile group: 'org.json', name: 'json', version: '20190722'
+    
+    testCompile "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-junit:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-rest-assured:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-screenplay-rest:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-cucumber4:${serenityCucumber4Version}",
+            
+            "io.cucumber:cucumber-core:${cucumberCoreVersion}",
+            "io.cucumber:cucumber-java:${cucumberCoreVersion}",
+            "io.cucumber:cucumber-junit:${cucumberCoreVersion}",
+            
+            "junit:junit:${junitVersion}",
+            "org.assertj:assertj-core:${assertJVersion}"
+            
+}
+gradle.startParameter.continueOnFailure = true
