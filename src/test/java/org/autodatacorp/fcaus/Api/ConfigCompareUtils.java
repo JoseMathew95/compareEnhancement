@@ -14,7 +14,7 @@ import java.util.List;
 
 public class ConfigCompareUtils {
 
-    static String baseUrl = "https://test2.chrysler.com/hostd/api";
+    static String baseUrl = "https://lemon.fcaus.autodata.tech/hostd/api";
     static Actor actorInSpotlight = Actor.named("actorInSpotlight").whoCan(CallAnApi.at(baseUrl));
 
     public static List<Option> retrieveOptionsFromConfigureResponse(String Ccode, String Llp, String stateString){
@@ -89,6 +89,7 @@ public class ConfigCompareUtils {
             tempOption.setOption(opt);
             tempOption.setOrder(option.getInt("order"));
             tempOption.setVisible(option.getBoolean("visible"));
+            tempOption.setStandard(option.getBoolean("standard"));
             try{
                 tempOption.setDescription(option.getString("longDescription"));
             }catch (Exception e){
@@ -130,6 +131,8 @@ public class ConfigCompareUtils {
     public static List<Option> GenerateOptionsListForCcodeLlp(String Ccode, String Llp, String stateString){
         List<Option> EquipOptions = retrieveOptionsFromEquipCatResponse(Ccode,Llp);
         List<Option> CatalogOptions = retrieveOptionsFromCatalogOptions(Ccode,Llp);
+        List<Option> ConfigOptions = retrieveOptionsFromConfigureResponse(Ccode,Llp,stateString);
+        List<Option> tobeRemovedOptions = new ArrayList<>() ;
         List<Option> GeneratedOptions = new ArrayList<>() ;
 
         CatalogOptions.forEach(opt ->{
@@ -146,6 +149,49 @@ public class ConfigCompareUtils {
                 }
             });
         });
+
+        for(Option opt:GeneratedOptions){
+            boolean flag = false;
+            String configOpt;
+            String option = opt.getOption().substring(0,3).replaceAll("[^a-zA-Z0-9]", "");
+            for(Option confOpt:ConfigOptions){
+
+                configOpt = confOpt.getOption();
+                if(configOpt.length()>2)
+                    configOpt = configOpt.substring(0,3).replaceAll("[^a-zA-Z0-9]","");
+
+                if(configOpt.equals(option)){
+                    opt.setStandard(confOpt.getStandard());
+                    opt.setSelected(confOpt.getSelected());
+                    opt.setState(confOpt.getState());
+                    opt.setOnlyOne(confOpt.getOnlyOne());
+                    flag = true;
+                    break;
+                }
+            }
+
+            if(!flag)
+                tobeRemovedOptions.add(opt);
+        }
+
+        GeneratedOptions.removeAll(tobeRemovedOptions);
+
+        EquipOptions.forEach(opt->{
+            if(opt.getStandard() == true){
+                boolean flag = false;
+                String option = opt.getOption().substring(0,3).replaceAll("[^a-zA-Z0-9]", "");
+                for(Option gOpt: GeneratedOptions){
+                    if(gOpt.getOption().substring(0,3).replaceAll("[^a-zA-Z0-9]", "").equals(option)){
+                        flag = true;
+                        break;
+                    }
+                }
+
+                if(flag == false)
+                    GeneratedOptions.add(opt);
+            }
+        });
+
 
 //        System.out.println(GeneratedOptions.size());
 //        GeneratedOptions.forEach(opt->{

@@ -101,23 +101,22 @@ public class ValidateOptions {
 
     public static boolean hasValidValuesForFlags(List<Option> configOptions, List<Option> compareOptions){
 
-        for (Option compOpt: compareOptions) {
+        for (Option confOpt: configOptions) {
             Boolean match = false;
+            String configOpt = confOpt.getOption();
 
-            for (Option confOpt: configOptions) {
-                String configOpt = confOpt.getOption();
-                if(configOpt.length()>2){
-                    configOpt = configOpt.substring(0,3).replaceAll("[^a-zA-Z0-9]","");}
+            if(configOpt.length()>2)
+                configOpt = configOpt.substring(0,3).replaceAll("[^a-zA-Z0-9]","");
 
-                if(configOpt.equals(compOpt.getOption().substring(0,3).replaceAll("[^a-zA-Z0-9]",""))){
+            for (Option compOpt: compareOptions) {
+                if(compOpt.getOption().substring(0,3).replaceAll("[^a-zA-Z0-9]","").equals(configOpt))
                     if(compOpt.getSelected() == confOpt.getSelected())
                         if(compOpt.getStandard() == confOpt.getStandard())
-                            //if(compOpt.getOnlyOne() == confOpt.getOnlyOne())
-                                    match = true;
-                }
+                             match = true;
             }
+
             if(match == false)
-                System.out.println("Wrong flag values for the Option " + compOpt.getOption());
+                System.out.println("Wrong flag values for the Option " + confOpt.getOption());
         }
         return true;
     }
